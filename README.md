@@ -1,6 +1,6 @@
-# GitHub Crawler
+# GitHub Spider
 
-GitHub Crawler is a Python script that interacts with the GitHub API to crawl user profiles, follow users based on follower count, display user repositories, and star repositories that meet popularity criteria.
+GitHub Spider is a Python script that interacts with the GitHub API to crawl user profiles, follow users based on follower count, display user repositories, and star repositories that meet popularity criteria.
 
 ## Features
 
@@ -13,8 +13,8 @@ GitHub Crawler is a Python script that interacts with the GitHub API to crawl us
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Ian729/github-crawler.git
-   cd github-crawler
+   git clone https://github.com/Ian729/GithubSpider.git
+   cd GithubSpider
    ```
 
 2. Install dependencies:
@@ -38,7 +38,7 @@ GitHub Crawler is a Python script that interacts with the GitHub API to crawl us
 3. Run the script:
 
    ```bash
-   python crawler.py
+   python github_spider.py
    ```
 
    The script will start crawling from a predefined GitHub user (`Ian729` by default) and follow users, display repositories, and star popular repositories.
@@ -59,4 +59,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Customization**: Modify the script (`github_spider.py`) to adjust parameters like `DEPTH_LIMIT`, follower count criteria, and repository popularity thresholds according to your requirements.
 - **Dependencies**: Check and update `requirements.txt` as your project evolves and new dependencies are added.
 
-This README.md template provides an overview of your project, installation instructions, usage guidelines, contribution information, and licensing details. Customize it further based on specific details and features of your GitHub Crawler project.
+This README.md template provides an overview of your project, installation instructions, usage guidelines, contribution information, and licensing details. Customize it further based on specific details and features of your GitHub Spider project.
