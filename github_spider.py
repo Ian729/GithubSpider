@@ -117,7 +117,7 @@ def display_repositories(username):
         print("No repositories found or user not found.")
 
 # Initialize queue and visited set
-queue = deque([("Ian729", 0)])
+queue = deque([("torvalds", 0)])
 visited = set()
 
 while queue:

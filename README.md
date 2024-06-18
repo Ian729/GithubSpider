@@ -41,7 +41,7 @@ GitHub Spider is a Python script that interacts with the GitHub API to crawl use
    python github_spider.py
    ```
 
-   The script will start crawling from a predefined GitHub user (`Ian729` by default) and follow users, display repositories, and star popular repositories.
+   The script will start crawling from a predefined GitHub user (`torvalds` by default) and follow users, display repositories, and star popular repositories.
 
 ## Contributing
 
